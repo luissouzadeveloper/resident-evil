@@ -1,0 +1,74 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* Variáveis de CSS */
+:root{
+    --cor1: #000;
+    --cor2: #fff;
+    --cor3: #930912;
+}
+
+/* Body */
+body{
+    background-color: #222;
+}
+
+/* Cabeçalho */
+.cabecalho{
+    background-color: var(--cor1);
+    padding: 0 60px;
+    border-bottom: 0.5px solid #cacaca;
+}
+
+/* Menu */
+.menu-principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-logo{
+    display: flex;
+    align-items: center;
+}
+.btn-logo > div{
+    margin: 0 10px;
+}
+.btn-menu{
+    border-left: 0.5px solid #cacaca;
+    border-right: 0.5px solid #cacaca;
+}
+.btn-menu > button{
+    background-color: transparent;
+    border: none;
+    padding: 13px;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+.btn-menu > button:hover, .btn-registro > button:hover{
+    background-color: #d8101d;
+}
+.btn-menu > button i{
+    color: var(--cor2);
+    font-size: 1.5em;
+}
+.btn-registro > button{
+    background-color: var(--cor3);
+    border: none;
+    padding: 13px;
+    cursor: pointer;
+    transition: all 500ms ease-in-out; 
+}
+.btn-registro > button{
+    color: var(--cor2);
+    font-size: 1em;
+}

@@ -138,6 +138,18 @@ body{
     font-size: 1em;
 }
 
+/* Banner */
+.banner{
+    background: url(../img/bg_re.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Dispositivos */
 /* Mobile */
 @media (min-width: 320px) and (max-width: 768px){

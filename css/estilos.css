@@ -171,8 +171,8 @@ section{
     align-items: center;
 }
 .controles > button{
-    padding: 40px;
-    width: 40%;
+    padding: 35px;
+    width: 30%;
     background-color: transparent;
     border: none;
     border-left: 1px solid #ccc;
@@ -185,6 +185,21 @@ section{
 }
 .controles > button:hover{
     background-color: #d8101d;
+}
+
+/* Enredo do jogo */
+.sobre-jogo{
+    background-color: var(--cor1);
+    
+}
+.enredo{
+    padding: 100px 0;
+}
+.enredo > p{
+    color: var(--cor2);
+    font-size: 1.4em;
+    line-height: 1.5;
+    padding: 10px 60px;
 }
 
 /* Dispositivos */

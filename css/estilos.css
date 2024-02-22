@@ -140,7 +140,8 @@ body{
 
 /* Seções */
 section{
-    padding: 0 60px;
+    padding: 10px 60px;
+    background-color: var(--cor1);
 }
 
 /* Banner */
@@ -188,10 +189,6 @@ section{
 }
 
 /* Enredo do jogo */
-.sobre-jogo{
-    background-color: var(--cor1);
-    
-}
 .enredo{
     padding: 100px 0;
 }
@@ -200,6 +197,26 @@ section{
     font-size: 1.4em;
     line-height: 1.5;
     padding: 10px 60px;
+}
+
+/* Imagens do game */
+.images-jogo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.images-jogo > figure{
+    background-color: var(--cor3);
+    padding: 15px;
+    margin: 4px;
+    border-radius: 6px;
+}
+.images-jogo > figure > figcaption{
+    font-weight: bold;
+    color: var(--cor2);
+    text-align: center;
+    margin-top: 3px;
 }
 
 /* Dispositivos */

@@ -140,7 +140,7 @@ body{
 
 /* Seções */
 section{
-    padding: 10px 60px;
+    padding: 30px 60px;
     background-color: var(--cor1);
 }
 
@@ -217,6 +217,59 @@ section{
     color: var(--cor2);
     text-align: center;
     margin-top: 3px;
+}
+
+/* Franquia vendas */
+.desc-venda > p{
+    color: var(--cor2);
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.6;
+    text-decoration: #d8101d underline;
+}
+
+/* Franquia jogos */
+.franquia{
+    border-top: 1px solid #cacaca;
+    border-bottom: 1px solid #cacaca;
+}
+.apresentacao-games{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.apresentacao-games h3{
+    color: var(--cor2);
+    font-size: 1.9em;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.apresentacao-games > .btn-game{
+    background-color: var(--cor3);
+    border: none;
+    padding: 20px 30px;
+    border-radius: 5px;
+    color: var(--cor2);
+    font-weight: bold;
+    font-size: 1em;
+    border: 1px solid var(--cor2);
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+.apresentacao-games > .btn-game:hover{
+    background-color: #d8101d;
+}
+.btn-top a{
+    position: fixed;
+    display: inline;
+    right: 20px;
+    bottom: 10px;
+}
+.btn-top > a i{
+    color: var(--cor2);
+    font-weight: bold;
+    font-size: 2em;
 }
 
 /* Dispositivos */
